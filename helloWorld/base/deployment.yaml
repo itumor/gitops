@@ -9,9 +9,6 @@ spec:
       labels:
         deployment: hello
     spec:
-    selector:
-      matchLabels:
-        name: sawtooth-0
       containers:
       - name: the-container
         image: monopole/hello:1
